@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Contador de Cliques</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main class="container">
+      <h1>Contador de Cliques</h1>
+
+      <section class="contador-section">
+        <p class="numero">Cliques: <span id="contador">0</span></p>
+      </section>
+
+      <section class="botoes">
+        <button id="toggleTema">🌙</button>
+        <button id="btnDiminuir" aria-label="Diminuir contador">-</button>
+        <button id="botao" aria-label="Aumentar contador">+</button>
+        <button id="btnMaisCinco" aria-label="Adicionar cinco">+5</button>
+        <button id="btnMenosCinco" aria-label="Diminuir cinco">-5</button>
+        <button id="btnMaisDez" aria-label="Adicionar dez">+10</button>
+        <button id="btnMenosDez" aria-label="Diminuir dez">-10</button>
+        <button id="resetar" aria-label="Resetar contador">Reset</button>
+        
+        </button>
+      </section>
+
+      <section class="historico-section">
+        <h3>Histórico</h3>
+        <ul id="historico"></ul>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
